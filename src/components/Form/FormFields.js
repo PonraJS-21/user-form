@@ -1,12 +1,12 @@
 const formFields = [
   {
     name: "name",
-    placeholder: "Name",
+    label: "Name",
     type: "text",
   },
   {
     name: "email",
-    placeholder: "Email",
+    label: "Email",
     type: "email",
   },
   {
@@ -17,17 +17,17 @@ const formFields = [
   },
   {
     name: "address",
-    placeholder: "Address",
+    label: "Address",
     type: "text",
   },
   {
     name: "city",
-    placeholder: "City",
+    label: "City",
     type: "text",
   },
   {
     name: "state",
-    placeholder: "State",
+    label: "State",
     type: "text",
   },
 ];

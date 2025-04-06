@@ -17,14 +17,12 @@ const Textbox = ({
 
   return (
     <div className="textbox-container">
-      <label className={`label ${className}`}>
-        {label ? label : placeholder}
-      </label>
+      <label className={`label ${className}`}>{label}</label>
       <input
         type={type}
         value={value}
         onChange={handleChange}
-        placeholder={placeholder}
+        placeholder={`Enter ${placeholder ? placeholder : label}`}
         className="textbox"
         name={name}
       />
