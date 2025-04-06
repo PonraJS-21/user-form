@@ -1,0 +1,24 @@
+/* src/components/Textbox/Textbox.css */
+.textbox-container {
+    margin: 10px 0;
+}
+
+.textbox {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textbox:focus {
+    border-color: #1a1a6e;
+    outline: none;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    font-weight: bolder;
+}

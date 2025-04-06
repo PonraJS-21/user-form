@@ -1,0 +1,24 @@
+/* CountryDropdown.css */
+.drop-down-container {
+    margin: 10px 0;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select:focus {
+    outline: none;
+    border-color: #1a1a6e;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    font-weight: bolder;
+}
